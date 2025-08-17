@@ -136,3 +136,38 @@ footer {
   background: rgba(0,0,0,0.5);
   font-size: 0.9rem;
 }
+
+
+/* ===== BOTONES SOCIALES ===== */
+.social-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.social-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #00c6ff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-buttons a:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.social-buttons img {
+  width: 28px;
+  height: 28px;
+}
+
